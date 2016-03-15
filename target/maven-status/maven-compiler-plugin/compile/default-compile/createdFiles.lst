@@ -10,6 +10,6 @@ com/application/security/SpringSecurityInitializer.class
 com/application/database/BaseImplementation.class
 com/application/database/Product.class
 com/application/credentials/User.class
-com/application/security/TractDaoAuthenticationProvider.class
 com/application/exception/DataValidationException.class
+com/application/security/MyDaoAuthenticationProvider.class
 com/application/credentials/UserType.class

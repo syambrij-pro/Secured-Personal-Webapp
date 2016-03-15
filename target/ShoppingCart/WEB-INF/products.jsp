@@ -31,12 +31,12 @@
 			<thead>
 				<tr>
 					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Product Name</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Product Description</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Product Introduction Date</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Product Support Discontinuation Date</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Product Internal Name</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">External Product Number</th>
-					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Trial Days</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Description</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Fist Date Used</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Last Date Used</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Service Provider Name</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">Generic Product Name</th>
+					<th style="border: 1px solid #3D78FA; border-collapse: collapse;">validity in Days</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -44,11 +44,11 @@
 					<tr>
 						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.productName}</td>
 						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.description}</td>
-						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.introductionDate}</td>
-						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.supportDiscontinuationDate}</td>
-						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.internalName}</td>
-						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.externalProductNumber}</td>
-						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.trialDays}</td>
+						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.firstDay}</td>
+						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.lastUsedDate}</td>
+						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.providerName}</td>
+						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.genericProductName}</td>
+						<td style="border: 1px solid #3D78FA; border-collapse: collapse;">${product.validity}</td>
 					</tr>
 				</c:forEach>
 			</tbody>

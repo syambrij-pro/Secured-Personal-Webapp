@@ -126,7 +126,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>ShoppingCart</finalName>
+		<finalName>Spring-Personal-Webapp</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
