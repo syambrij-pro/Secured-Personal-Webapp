@@ -21,7 +21,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	private SecurityUserDetails userDetailService;
 	
 	@Autowired
-	private TractDaoAuthenticationProvider provider;
+	private MyDaoAuthenticationProvider provider;
 	
 	@Autowired
 	private ShaPasswordEncoder shaPasswordEncoder;
