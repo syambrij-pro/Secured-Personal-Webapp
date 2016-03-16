@@ -14,7 +14,7 @@ import com.application.credentials.SecurityUserDetails;
 
 @Configuration
 @EnableWebSecurity
-@ComponentScan("com.shopping")
+@ComponentScan("com.application")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired

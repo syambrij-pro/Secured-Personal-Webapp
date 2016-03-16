@@ -39,28 +39,28 @@ public class Product extends BaseEntity {
 	@Column(name = "VALIDITY")
 	private Integer validity = null;
 
-	public Date getStartDate() {
+	public Date getFirstDay() {
 		return firstDay;
 	}
 
-	public void setStartDate(Date startDate) {
-		this.firstDay = startDate;
+	public void setFirstDay(Date firstDay) {
+		this.firstDay = firstDay;
 	}
 
-	public Date getSupportDiscontinuationDate() {
+	public Date getLastUsedDate() {
 		return lastUsedDate;
 	}
 
-	public void setSupportDiscontinuationDate(Date endDate) {
-		this.lastUsedDate = endDate;
+	public void setLastUsedDate(Date lastUsedDate) {
+		this.lastUsedDate = lastUsedDate;
 	}
 
-	public String getInternalName() {
+	public String getProviderName() {
 		return providerName;
 	}
 
-	public void setInternalName(String internalName) {
-		this.providerName = internalName;
+	public void setProviderName(String providerName) {
+		this.providerName = providerName;
 	}
 
 	/**
@@ -99,16 +99,16 @@ public class Product extends BaseEntity {
 		 return genericProductName;
 	 }
 
-	 public void setGenericProductName(String genericName) {
-		 this.genericProductName = genericName;
+	 public void setGenericProductName(String genericProductName) {
+		 this.genericProductName = genericProductName;
 	 }
 
-	 public Integer getTrialDays() {
+	 public Integer getValidity() {
 		 return validity;
 	 }
 
-	 public void setTrialDays(Integer valid) {
-		 this.validity = valid;
+	 public void setValidity(Integer validity) {
+		 this.validity = validity;
 	 }
 
 	 @Override

@@ -18,7 +18,7 @@
 <body>
 	<h3>You have logged in. Here is the Product List!</h3>
 	<h2>List of Products</h2>
-	<form align="right" name="form1" method="post" action="/ShoppingCart/logout">
+	<form align="right" name="form1" method="post" action="/SecureWebapp/logout">
 	<input type="hidden" name="${_csrf.parameterName}"
 					value="${_csrf.token}" />
 		<label class="logoutButton"> <input name="submit2"

@@ -12,7 +12,7 @@
 	
 	
 	<!-- Classpath scanning of @Component, @Service, etc annotated class -->
-	<context:component-scan base-package="com.shopping" />
+	<context:component-scan base-package="com.application" />
 
 	<!-- Resolve view name into jsp file located on /WEB-INF -->
 	<bean

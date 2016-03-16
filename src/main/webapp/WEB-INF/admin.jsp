@@ -7,7 +7,7 @@
 </head>
 <body>	
 	<h3>Create Product: </h3>
-	<form action="/ShoppingCart/productcreated" method="post" modelAttribute = "productData">
+	<form action="/SecureWebapp/productcreated" method="post" modelAttribute = "productData">
 	<table>
 		<tr style="line-height: 50px;">		
 		</tr>

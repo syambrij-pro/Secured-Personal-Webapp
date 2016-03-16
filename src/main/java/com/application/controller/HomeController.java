@@ -28,7 +28,9 @@ import com.application.database.ProductImplementationService;
 /**
  * @author Syambrij M 
  * A Controller page for login and product List page.
- *
+ * There are some duplicate methods left intentionally. 
+ * You can get rid of them whenever accordingly with your 
+ * choices to use Get/Post Method.
  */
 
 @Controller
@@ -40,7 +42,6 @@ public class HomeController {
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public ModelAndView first() {
 		ModelAndView model = new ModelAndView();
-		//model.addObject("message" , "Welcome to new destination");
 		model.setViewName("redirect:/login");
 		return model;
 	}
@@ -48,7 +49,6 @@ public class HomeController {
 	@RequestMapping(value="/", method=RequestMethod.POST)
 	public ModelAndView firstPost() {
 		ModelAndView model = new ModelAndView();
-		//model.addObject("message" , "Welcome to new destination");
 		model.setViewName("login");
 		return model;
 	}

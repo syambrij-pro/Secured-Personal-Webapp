@@ -9,6 +9,6 @@
 <body>
 
 <h4>You have logout successfully!</h4>
-<br/> click here for <a href="/ShoppingCart/login">login</a>
+<br/> click here for <a href="/SecureWebapp/login">login</a>
 </body>
 </html>

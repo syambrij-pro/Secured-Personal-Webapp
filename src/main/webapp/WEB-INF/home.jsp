@@ -37,7 +37,7 @@
 						<a href="/ShoppingCart/login">login</a>	--%>
 		</div>
 		<div style="float: left; width: 70%">
-			<form action="/ShoppingCart/validation" method="post">
+			<form action="/SecureWebapp/validation" method="post">
 				<table>
 					<tr>
 						<td>First Name</td>
@@ -65,7 +65,7 @@
 					value="${_csrf.token}" /> <br /> <input type="submit"
 					value="signUp">
 			</form>
-			<a href="/ShoppingCart/products">Already LoggedIn</a>
+			<a href="/SecureWebapp/products">Already LoggedIn</a>
 		</div>
 	</div>
 </body>

@@ -9,6 +9,6 @@
 <body>
 	Error occurred while accessing this page. <h2>${error}</h2>
 	
-	<a href="/ShoppingCart/login">try Again!</a>
+	<a href="/SecureWebapp/login">try Again!</a>
 </body>
 </html>

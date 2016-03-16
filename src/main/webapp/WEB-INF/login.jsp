@@ -56,7 +56,7 @@
 				</table>
 				<input type="hidden" name="${_csrf.parameterName}"
 					value="${_csrf.token}" />
-			<a href="/ShoppingCart/home" style="color: RED;">New User</a>
+			<a href="/SecureWebapp/home" style="color: RED;">New User</a>
 		</div>
 	</form>
 	</div>

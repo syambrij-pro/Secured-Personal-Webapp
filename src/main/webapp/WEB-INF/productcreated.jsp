@@ -11,7 +11,7 @@
 	<h6>You have created a product successfully!</h6>
 	<br/>
 	Create a new 
-	<form action="/ShoppingCart/admin" method="post">
+	<form action="/SecureWebapp/admin" method="post">
 		<input type ="hidden" name="new" />
 		<button type="submit" value="create" name="create">Product</button>
 	</form>

@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @EnableWebMvc
-@ComponentScan("com.shopping")
+@ComponentScan("com.application")
 public class SpringSecurityInitializer extends WebMvcConfigurerAdapter {
  
 	@Override
